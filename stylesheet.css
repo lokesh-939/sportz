@@ -1,0 +1,395 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    transition:all .5s ease-in-out;
+   
+}
+header{
+    position:fixed;
+    z-index:2;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+max-width:100%;
+height:120px;
+margin-bottom: 0px;
+
+background-color:#FFBE98;
+}
+#text{
+    display:none;
+}
+.top{
+    display:flex;
+    margin-right:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo,.logo2{
+    width:150px;
+    height:90px;
+}
+
+.company{
+    margin-left:30px;
+    font-family: "Protest Riot", sans-serif;
+    font-size:50px;
+}
+.profile{
+    margin-left: 10px;
+    margin-right:auto;
+}
+.login{
+    width:100px;
+    height:30px;
+    margin-left:40px;
+}
+.center ul{
+    display:inline-flex;
+    gap:30px;
+    
+    background-color: transparent;
+    padding:30px;
+    }
+    .center ul li{
+        font-size:large;
+        padding:10px;
+        font-family: "Pacifico", cursive;
+        }
+
+ .center ul li a:focus{
+background-color:#DCFFB7;
+padding:10px;
+ }
+ .signup{
+    width:80px;
+    height:50px;
+    border-radius:50%;
+    border:2px solid black;
+ }
+ .login{
+    text-align: center;
+ }
+.container{
+    display:flex;
+    align-content: center;
+    justify-content: space-evenly;
+    position:relative;
+    top:200px;
+    margin-top:-60px;
+    background-image:url('sports55.jpg');
+    background:"cover";
+    height:86px;
+    padding-top:90px;
+    padding-bottom:90px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.text{
+    font-family:cursive;
+    font-weight: 400;
+    font-stretch: expanded;
+    font-size:20px;
+}
+.location .submit{
+    width:100px;
+    height:40px;
+    background-color:#FFBE98;
+}
+
+
+
+
+
+
+
+
+.dropbtn {
+ background-color:transparent;
+  color: black;
+  padding:16px;
+  cursor: pointer;
+  border:none;
+  font-family: "Pacifico", cursive;
+  font-size:large;
+  
+}
+.dropbtn:focus{
+    background-color:#DCFFB7;
+    padding:10px;
+   
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  bottom:13px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: khaki;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Pacifico", cursive;
+  border-radius: 20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.middel{
+    position:relative;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color:aliceblue;
+    height:300px;
+    top:170px;
+}
+.middel1{
+    position:relative;
+    top:180px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px 0px;
+    color:white;
+    background-color:grey;
+}
+.content{
+    border:9px solid #7F27FF;
+    padding:20px;
+    border-right:0px;
+    border-top:0px;
+
+}
+.services{
+    position:relative;
+    top:180px;
+   
+    background-color:grey;
+
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;;
+}
+.card{
+    width:17rem;
+    border:3px solid whitesmoke;
+border-radius:10px;
+
+}.card-img{
+    width:15rem;
+    height:auto;
+    margin:15px;
+    border-radius:10px;
+}
+.card-body{
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:20px;
+}
+.card-body a{
+    background-color:skyblue;
+    padding:10px;
+    border-radius:10px;
+}
+.bottom{
+    position:relative;
+    text-align:center;
+    top:150px;  
+    padding:40px;
+
+background-color:#FFBE98;
+}
+
+.options{
+    position:relative;
+    top:180px;
+    bottom:0px;
+    width:auto;
+display:flex;
+justify-content: space-between;
+background-color:#F72798;
+
+}
+.top1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options2{
+    margin:30px 0px;
+}
+.options2 ul li{
+    padding:8px 0px;
+}
+.options2 ul li:hover{
+    color:#DC84F3;
+}
+.email{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:center;
+margin-right: 80px;
+}
+.emailinput{
+    width:300px;
+    height:30px;
+    border:none;
+}
+.emailinputbut{
+    width:80px;
+    height:30px;
+    border:none;
+    background-color:#40A2E3;
+}
+.log-in{
+position:relative;
+top:180px;
+width:500px;
+height:auto;
+background-color:#7F27FF;
+color:aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:30px auto;
+background-blend-mode: lighten;
+}
+.loginpass{
+    width:240px;
+    height:30px;
+}.login{
+ width:150px;
+ height:30px;
+ background-color: aqua;
+}
+.loginpass:focus{
+    background-color:#CDFADB;
+    outline-color:#F72798;
+}
+.inputlogin,.inputlogin p {
+    color:aliceblue;
+}
+.signup11{
+    position:relative;
+    top:120px;
+    padding:10px;
+    background-color:#7F27FF;
+    height:auto;
+    width:400px;
+    margin:10px auto;
+}
+ 
+.signup11 form input{
+    width:250px;
+    height:5px;
+    padding:20px 0px;
+    border-radius:10px;
+    text-align: center;
+    }
+h1{
+    text-align:center;
+}
+.signupbtn{
+    margin:20px 0px;
+   margin-left:130px;
+   padding:12px 30px;
+color:white;
+background-color: #FFBE98;
+font-size: 30px;
+
+}
+.card1{
+    position:relative;
+    top:120px;
+    bottom:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dsplaypeople{
+    position:relative;
+    top:20px;
+    height:auto;
+    width:auto;
+   
+}
+.hisprofile{
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    margin-left:70px;
+}
+.contact1{
+    margin-right:70px;
+}
+.contact1 button{
+    padding:20px;
+    font-size: 20px;
+    border:none;
+    background-color: lightgreen;
+}
+.card1{
+    box-shadow: 5px 5px 2px lightgray;
+    }
+.filter{
+    position:relative;
+    top:120px;
+    height:auto;
+    width:auto; 
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index:1;
+   background-color:#7F27FF;
+}
+select ,.create{
+    width:auto;
+    height:auto;
+    padding:10px;
+    margin:20px;
+}
+.create{
+    background-color:lightgreen;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
